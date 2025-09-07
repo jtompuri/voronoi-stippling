@@ -1,6 +1,6 @@
 # Weighted Voronoi Stippling (MATLAB)
 
-Fast, reliable weighted Voronoi stippling with Lloyd relaxation and density-aware Poisson‑disk initialization. Exports vector PDFs and TSPLIB files.
+Weighted Voronoi stippling with Lloyd relaxation and density-aware Poisson‑disk initialization. Exports vector PDFs and TSPLIB files.
 
 ## Highlights
 - Poisson‑disk initialization with variable radius
