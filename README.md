@@ -68,5 +68,5 @@ animate_lloyd('images/example-1024px.png', 'n_stipples', 8000, ...
 5. **Vector export**: High-quality scalable output
 
 ## References
-- Secord, A. (2002): Weighted Voronoi stippling
-- Kaplan & Bosch (2005): TSP Art
+- [Secord, A. (2002): "Weighted Voronoi stippling"](https://www.cs.ubc.ca/labs/imager/tr/2002/secord2002b/secord.2002b.pdf)
+- [Kaplan & Bosch (2005): "TSP Art"](https://archive.bridgesmathart.org/2005/bridges2005-301.pdf)
