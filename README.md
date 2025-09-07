@@ -59,7 +59,7 @@ example_animation.m
 ## Animation
 ![Lloyd Relaxation Animation](stipplings/animations/example-1024px_10000.gif)
 
-The GIF above shows Lloyd relaxation converging from random initial points to optimal stipple positions.
+The GIF above shows Lloyd relaxation converging from random initial points to optimal stipple positions. The original photo is shown under the stipples for reference.
 
 ```matlab
 % Create GIF animation of Lloyd iterations
