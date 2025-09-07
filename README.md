@@ -2,8 +2,6 @@
 
 Weighted Voronoi stippling with Lloyd relaxation and density-aware Poisson‑disk initialization. Exports vector PDFs and TSPLIB files.
 
-![Lloyd Relaxation Animation](stipplings/animations/example-1024px_10000.gif)
-
 ## Highlights
 - Poisson‑disk initialization with variable radius
 - Lloyd relaxation with adaptive convergence
@@ -52,6 +50,8 @@ example_animation.m
 - **auto_contrast** (default true): Automatic contrast enhancement
 
 ## Animation
+![Lloyd Relaxation Animation](stipplings/animations/example-1024px_10000.gif)
+
 The GIF above shows Lloyd relaxation converging from random initial points to optimal stipple positions.
 
 ```matlab
