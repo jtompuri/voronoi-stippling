@@ -1,15 +1,15 @@
 % example_stippling.m - Example stippling script
 cfg = StipplerConfig.getDefault();
 
-cfg.n_stipples = 5000;
-cfg.stipple_color = [255 225 53] / 255;
-cfg.background_color =  [101 67 33] / 255;
-cfg.radius = 5.0;
+cfg.n_stipples = 10000;
+cfg.stipple_color = 'black';
+cfg.background_color =  'white';
+cfg.radius = 2.5;
 cfg.white_cut = 1.0;
 cfg.supersample = 4;
 cfg.auto_contrast = false;
 
-[pdf_file, tsp_file] = stippling('images/saniainen1.png', ...
+[pdf_file, tsp_file] = stippling('images/example-1024px.png', ...
     'n_stipples', cfg.n_stipples, ...
     'stipple_color', cfg.stipple_color, ...
     'background_color', cfg.background_color, ...
