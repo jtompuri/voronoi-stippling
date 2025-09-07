@@ -26,11 +26,14 @@ Weighted Voronoi stippling with Lloyd relaxation and density-aware Poisson‑dis
 
 ## Example usage
 ```matlab
-% Run basic example
-example_stippling
+% Run basic example in MATLAB
+example_stippling.m
 
-% Create animations
-example_animation
+% Create TSP art in MATLAB
+example_tsp_art.m
+
+% Create animations in MATLAB
+example_animation.m
 ```
 
 ## Output locations
