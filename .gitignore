@@ -14,6 +14,8 @@ Thumbs.db
 # Images folder - exclude all except example-1024px.png
 images/*
 !images/example-1024px.png
+!images/example-1024px_10000.png
+!images/example-1024px_10000_tour.png
 
 # Stipplings output folder - exclude all except example-1024px_10000.*
 stipplings/pdf/*

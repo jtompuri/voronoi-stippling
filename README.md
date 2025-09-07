@@ -9,6 +9,13 @@ Weighted Voronoi stippling with Lloyd relaxation and density-aware Poisson‑dis
 - TSPLIB format export for plotter/tour art
 - Automatic contrast enhancement and supersampling
 
+## Examples
+
+| Original Image | Stippling Result | TSP Tour Art |
+|:---:|:---:|:---:|
+| <img src="images/example-1024px.png" width="250"> | <img src="images/example-1024px_10000.png" width="250"> | <img src="images/example-1024px_10000_tour.png" width="250"> |
+| Input: `example-1024px.png` | Output: 10000 stipples | TSP tour visualization |
+
 ## Quick start
 ```matlab
 % Default settings (adaptive convergence, auto-contrast)
