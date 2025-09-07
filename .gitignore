@@ -1,0 +1,47 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# MATLAB temporary files
+*.asv
+*.m~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Images folder - exclude all except example-1024px.png
+images/*
+!images/example-1024px.png
+
+# Stipplings output folder - exclude all except example-1024px_10000.*
+stipplings/pdf/*
+!stipplings/pdf/example-1024px_10000.*
+stipplings/tsp/*
+!stipplings/tsp/example-1024px_10000.*
+stipplings/animations/*
+!stipplings/animations/example-1024px_10000.*
+
+# Keep directory structure
+!stipplings/pdf/.gitkeep
+!stipplings/tsp/.gitkeep
+!stipplings/animations/.gitkeep
+
+# Development files
+_NOT_FOR_DELIVERY/
+test_*.m
+temp_*.m
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Temporary output files
+temp.*
+tmp.*
