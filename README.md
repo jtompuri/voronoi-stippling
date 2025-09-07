@@ -89,11 +89,6 @@ example_tsp_art.m
 2. **Solve TSP**: Use external solvers like [LKH](http://webhotel4.ruc.dk/~keld/research/LKH/) or [Concorde](http://www.math.uwaterloo.ca/tsp/concorde.html)
 3. **Visualize tour**: Run `example_tsp_art.m` to create tour artwork from `.tour` files
 
-**TSP Art Tips:**
-- Use higher stipple counts (8000-15000) for detailed line art
-- Adjust `white_cut` (0.9-0.98) to control background suppression
-- Tour quality depends on the TSP solver used
-
 ## Supported formats
 **Input**: .jpg, .jpeg, .png, .bmp, .tiff, .tif, .gif  
 **Output**: Vector PDF, TSPLIB (.tsp), GIF/MP4 animations
