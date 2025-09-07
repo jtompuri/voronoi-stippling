@@ -16,6 +16,6 @@ fprintf('Creating Lloyd iteration animations...\n');
 % Example 3: Animation with circles instead of dots
 fprintf('\n3. Creating circle-based animation...\n');
 animate_lloyd('images/example-1024px.png', 'n_stipples', 10000, 'n_iter', 50, ...
-              'format', 'gif', 'draw_circles', true, 'radius', 2.0);
+              'format', 'gif', 'draw_circles', true, 'radius', 2.5);
 
 fprintf('\nAll animations saved to stipplings/animations/ folder\n');

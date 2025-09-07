@@ -124,7 +124,7 @@ function out_file = animate_lloyd(image_path, varargin)
     if isempty(out_file)
         [~, base, ~] = fileparts(image_path);
         ensure_directory(fullfile('stipplings','animations'));
-        out_file = fullfile('stipplings','animations', sprintf('%s_%d_lloyd.%s', base, n_stipples, fmt));
+        out_file = fullfile('stipplings','animations', sprintf('%s_%d.%s', base, n_stipples, fmt));
     else
         [out_dir,~,~] = fileparts(out_file);
         if ~isempty(out_dir), ensure_directory(out_dir); end
