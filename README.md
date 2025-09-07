@@ -70,6 +70,30 @@ animate_lloyd('images/example-1024px.png', 'n_stipples', 8000, ...
               'format', 'mp4', 'frame_rate', 20, 'n_iter', 50);
 ```
 
+## TSP Art Creation
+TSP (Traveling Salesman Problem) art creates continuous line drawings by finding optimal tours through stipple points. The process involves two steps: generating stipples and then creating a tour visualization.
+
+```matlab
+% Step 1: Generate stipples and export to TSP format
+[pdf_file, tsp_file] = stippling('images/example-1024px.png', ...
+    'n_stipples', 10000, ...     % more points = finer detail
+    'white_cut', 0.95);          % suppress bright areas
+
+% Step 2: Solve TSP and visualize tour (requires tour file)
+% Use external TSP solver (LKH, Concorde)
+example_tsp_art.m
+```
+
+**TSP Workflow:**
+1. **Generate TSP file**: The `stippling()` function exports `.tsp` files to `stipplings/tsp/`
+2. **Solve TSP**: Use external solvers like [LKH](http://webhotel4.ruc.dk/~keld/research/LKH/) or [Concorde](http://www.math.uwaterloo.ca/tsp/concorde.html)
+3. **Visualize tour**: Run `example_tsp_art.m` to create tour artwork from `.tour` files
+
+**TSP Art Tips:**
+- Use higher stipple counts (8000-15000) for detailed line art
+- Adjust `white_cut` (0.9-0.98) to control background suppression
+- Tour quality depends on the TSP solver used
+
 ## Supported formats
 **Input**: .jpg, .jpeg, .png, .bmp, .tiff, .tif, .gif  
 **Output**: Vector PDF, TSPLIB (.tsp), GIF/MP4 animations
